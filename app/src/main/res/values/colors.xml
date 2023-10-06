@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Definición de colores -->
+    <color name="colorPrimary">#007ACC</color> <!-- Color primario -->
+    <color name="colorPrimaryDark">#005F99</color> <!-- Color primario oscuro -->
+    <color name="colorAccent">#FF4081</color> <!-- Color de acento -->
+    <color name="secondaryColor">#FF5722</color> <!-- Color secundario -->
+    <color name="customButtonBackground">#333333</color> <!-- Color normal -->
+    <color name="customButtonPressedBackground">#FF4081</color> <!-- Color al presionar -->
+
+    <!-- Puedes agregar más colores aquí -->
+
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="backgroundTint">@color/customButtonBackground</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>
